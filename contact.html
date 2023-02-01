@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Box</title>
+    <script
+      src="https://kit.fontawesome.com/431d566653.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="images/logo.png" alt="" />
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">home<span></span></a>
+            </li>
+            <li>
+              <a href="#">about<span></span></a>
+            </li>
+            <li>
+              <a class="active" href="#">contact<span></span></a>
+            </li>
+            <li>
+              <a href="#">portfolio<span></span></a>
+            </li>
+            <li class="button">
+              <button>Blog</button>
+            </li>
+          </ul>
+        </nav>
+        <div class="search">
+          <span>search</span>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </header>
+    <div class="landing contact-landing">
+      <div class="overlay"></div>
+      <div class="container">
+        <h1 class="contact">Contact</h1>
+      </div>
+    </div>
+    <div class="contacts">
+      <div class="container">
+        <h2>Get in touch</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, ea id!
+          Optio ut reprehenderit doloremque consequatur nam voluptate eveniet
+          laudantium, velit inventore recusandae nesciunt cumque incidunt
+          tenetur dolorem! Distinctio, eligendi.
+        </p>
+        <div class="left-side">
+          <p></p>
+          <form action="">
+            <p>Optio ut reprehenderit doloremque consequatur nam</p>
+            <label for="name">NAME <span>*</span></label>
+            <input type="text" id="name" />
+            <label for="pass">EMAIL ADDRESS <span>*</span></label>
+            <input type="text" id="pass" />
+            <label for="sub">SUBJECT <span>*</span></label>
+            <input type="text" id="sub" />
+            <label for="mess">MESSAGE <span>*</span></label>
+            <textarea name="message" id="mess" cols="30" rows="10"></textarea>
+            <img src="images/code.PNG" alt="" />
+            <div class="code">
+              <label for="code">Enter Code</label>
+              <input type="text" id="code" />
+            </div>
+            <input class="submit" type="submit" value="send" />
+          </form>
+        </div>
+        <div class="right-side">
+          <div class="our-link">
+            <div class="link-box">
+              <i class="fa-solid fa-phone"></i>
+              <div class="link-content">
+                <a href=""><span>Mobile</span>012300000434</a>
+                <a href=""><span>Mobile</span>012300000434</a>
+              </div>
+              <i class="fa-solid fa-house"></i>
+              <div class="link-content">
+                <a href="">eprehenderit doloremque consequatur</a>
+                <a href="">eprehenderit doloremque consequatur</a>
+              </div>
+              <i class="fa-solid fa-envelope"></i>
+              <div class="link-content">
+                <a href="">www.google.com</a>
+                <a href="">www.google.com</a>
+              </div>
+            </div>
+            <div class="link-box">
+              <img src="images/map.PNG" alt="" />
+            </div>
+            <div class="link-box">
+              <h2>Follow us On social Media</h2>
+              <div class="social">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-google"></i></a>
+                <a href=""><i class="fa-brands fa-wordpress"></i></a>
+                <a href=""><i class="fa-brands fa-yahoo"></i></a>
+                <a href=""><i class="fa-brands fa-blogger"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="footer-box">
+          <h2>footer title</h2>
+          <div class="box-content">
+            <p>check this link to bla bla bla</p>
+            <a href="">www.google.com</a>
+            <p>2 Weeks</p>
+          </div>
+          <hr />
+          <div class="box-content">
+            <p>check this link to bla bla bla</p>
+            <a href="">www.google.com</a>
+            <p>2 Weeks</p>
+          </div>
+          <hr />
+          <div class="box-content">
+            <p>check this link to bla bla bla</p>
+            <a href="">www.google.com</a>
+            <p>2 Weeks</p>
+          </div>
+        </div>
+        <div class="footer-box" style="justify-content: flex-start">
+          <h2>footer title</h2>
+          <div class="box-content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
+              dicta ut quo quas laud
+            </p>
+            <a href="">www.google.com</a>
+            <p>2 Weeks</p>
+          </div>
+          <hr />
+          <div class="box-content">
+            <a href="">type your Email</a>
+            <input type="text" />
+          </div>
+        </div>
+        <div class="footer-box">
+          <h2>footer title</h2>
+          <div class="footer-img">
+            <img src="images/portfolio.jpg" alt="" />
+            <div class="box-content">
+              <p>Lorem ipsum dolor</p>
+              <a href="">www.google.com</a>
+              <p>2 Weeks</p>
+            </div>
+          </div>
+          <hr />
+          <div class="footer-img">
+            <img src="images/portfolio.jpg" alt="" />
+            <div class="box-content">
+              <p>Lorem ipsum dolor</p>
+              <a href="">www.google.com</a>
+              <p>2 Weeks</p>
+            </div>
+          </div>
+          <hr />
+          <div class="footer-img">
+            <img src="images/portfolio.jpg" alt="" />
+            <div class="box-content">
+              <p>Lorem ipsum dolor</p>
+              <a href="">www.google.com</a>
+              <p>2 Weeks</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-box last">
+          <h2>footer title</h2>
+          <div class="footer-img last">
+            <i class="fa-solid fa-envelope"></i>
+            <div class="box-content">
+              <p>87467345723</p>
+              <p>87467345723</p>
+            </div>
+          </div>
+
+          <div class="footer-img last">
+            <i class="fa-solid fa-phone"></i>
+            <div class="box-content">
+              <p>87467345723</p>
+              <p>87467345723</p>
+            </div>
+          </div>
+
+          <div class="footer-img last">
+            <i class="fa-solid fa-mobile-screen"></i>
+            <div class="box-content">
+              <p>Lorem ipsum dolor</p>
+              <p>Lorem ipsum dolor</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
